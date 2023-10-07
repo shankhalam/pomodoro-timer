@@ -72,8 +72,9 @@ def count_down(count):
 window = Tk()
 window.title("Pomodoro App")
 window.config(padx=100, pady=50, bg=YELLOW)
+window.iconbitmap('tomato.ico')
 
-title_label = Label(window, text="Timer", fg=GREEN, bg=YELLOW, font=(FONT_NAME, 25))
+title_label = Label(window, text="Timer", fg=GREEN, bg=YELLOW, font=(FONT_NAME, 40))
 title_label.grid(column=1, row=0)
 
 canvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
