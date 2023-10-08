@@ -84,10 +84,10 @@ counter_text = canvas.create_text(102, 130, text="00:00", fill="white",
                                   font=(FONT_NAME, 35, "bold"))
 canvas.grid(column=1, row=1)
 
-start_button = Button(text="START", command=start_timer)
+start_button = Button(text="START", command=start_timer, bg=GREEN, padx=5, pady=5)
 start_button.grid(column=0, row=3)
 
-reset_button = Button(text="RESET", command=reset)
+reset_button = Button(text="RESET", command=reset, bg=PINK, padx=5, pady=5)
 reset_button.grid(column=2, row=3)
 
 tick_label = Label(font=(FONT_NAME, 20), bg=YELLOW, fg=GREEN)
