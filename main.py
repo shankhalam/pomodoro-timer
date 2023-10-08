@@ -93,4 +93,6 @@ reset_button.grid(column=2, row=3)
 tick_label = Label(font=(FONT_NAME, 20), bg=YELLOW, fg=GREEN)
 tick_label.grid(column=1, row=4)
 
+credit_label = Label(text="Developed by Shan Khalam", font=(FONT_NAME, 7), bg=YELLOW, fg=PINK)
+credit_label.grid(column=1, row=5)
 window.mainloop()
