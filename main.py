@@ -70,7 +70,7 @@ def count_down(count):
 
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
-window.title("Pomodoro App")
+window.title("Pomodoro Timer v1.0.0")
 window.config(padx=100, pady=50, bg=YELLOW)
 window.iconbitmap('assets/tomato.ico')
 
